@@ -14,6 +14,7 @@ public class MenuApp {
     }
 
     public static void main(String[] args) {
+        System.out.println("Hello Sir");
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         EmployeeService employeeService = context.getBean(EmployeeService.class);
         MenuApp main = new MenuApp(employeeService);
