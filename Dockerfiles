@@ -1,5 +1,5 @@
 
 FROM openjdk:8
-ADD target/springbootactuator.jar springbootactuator.jar
+ADD target/Springs.jar Springs.jar
 EXPOSE 8085
-ENTRYPOINT ["java","-jar","springbootactuator.jar"]
+ENTRYPOINT ["java","-jar","Springs.jar"]
